@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="FWebSocket/FWebSocket.fsproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FWebSocket/Program.fs">
+    <Files>
+      <File FileName="FWebSocket/Program.fs" Line="203" Column="42" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>[| "GET /timer HTTP/1.1"; "Upgrade: websocket"; "Connection: Upgrade"|]</Value>
+          <Value>isWebSocketsUpgrade lines</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
