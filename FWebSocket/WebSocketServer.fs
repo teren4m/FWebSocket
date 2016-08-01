@@ -66,7 +66,6 @@ module WebSocketServer =
       )
 
   let runWorker (tcp : TcpClient) (ctrl : MailboxProcessor<Msg>) ct = 
-      
       ignore <| ServerUtil.startMailboxProcessor ct (fun (inbox : MailboxProcessor<byte array>) ->
           let rec handshake = async {            
               let ns = tcp.GetStream()
@@ -141,4 +140,3 @@ module WebSocketServer =
 
   let start (ipAddress, port): IDisposable = 
     runRequestDispatcher (ipAddress, port)
-    
